@@ -22,3 +22,4 @@ function changeA2() {
   obj = a.age;
   return obj;
 }
+
