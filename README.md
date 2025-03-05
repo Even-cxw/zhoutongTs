@@ -29,3 +29,17 @@ tsc --init
 
 当 tsconfig.json 里没有明确指定 include 或者 files 选项时，TypeScript 编译器会默认将 tsconfig.json 文件所在目录及其子目录下的所有 .ts、.tsx 和 .d.ts 文件纳入编译和校验范围。所以，根目录下的所有 .ts 文件都会受到规则校验。
 
+
+### ts
+- as
+- instanceof
+- Record<K, T>
+- Partial<T>
+
+```typescript
+let a = {
+  name?: string,
+  age: number,
+  [key:string]: any,
+}
+```
